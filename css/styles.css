@@ -1,0 +1,291 @@
+:root {
+    --primary-color: #212121;
+    --second-color: #757575;
+    --third-color: #ffffff;
+    --accent-color: #2196f3;
+
+}
+
+body {
+    font-family: "Roboto", "sans-serif ";
+    background-color: var(--third-color);
+    font-size: 14px;
+    color: var(--rimary-color);
+    letter-spacing: 0.03em;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.main-studio {}
+
+.main-portfolio {}
+
+/* Шапка сайту*/
+
+.header {}
+
+
+.header-logo,
+.footer-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration-line: none;
+    color: #000000;
+
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-color);
+
+}
+
+.link:focus {
+    color: var(--accent-color);
+}
+
+.link:hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.link {
+    text-decoration-line: none;
+
+}
+
+/*Навігація на інші сторінки*/
+.header-items {}
+
+.header-item {}
+
+.header-link {
+    text-decoration-line: none;
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--primary-color);
+}
+
+
+.nav-items {}
+
+.nav-item {}
+
+.nav-link {
+    color: var(--second-color);
+}
+
+/* Слонаг Компанії */
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--third-color)
+}
+
+.button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--third-color);
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #2F303A;
+    ;
+}
+
+/*  Особливості*/
+
+.feature {}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.feature-items {}
+
+.feature-item {}
+
+.feature-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.feature-article {
+    line-height: 1.71;
+    color: var(--second-color);
+
+}
+
+/* Вид діяльності */
+
+.activity {}
+
+.section-title {}
+
+.activity-items {}
+
+.activity-item {}
+
+/* Команда */
+
+.team {
+    background: #F5F4FA;
+}
+
+
+
+.team-items {}
+
+.team-item {}
+
+.team-member {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+
+
+    color: var(--primary-color);
+}
+
+.team-position {
+
+    color: var(--second-color);
+    font-size: 16px;
+    line-height: 1.19;
+
+}
+
+/* Підвал */
+
+.footer {
+    background: #2F303A;
+}
+
+.footer-logo {
+    color: var(--third-color);
+
+}
+
+
+.address-items {}
+
+.address-item {}
+
+.address-link {
+
+    font-style: normal;
+
+
+    line-height: 1.7;
+    text-decoration-line: none;
+
+    color: var(--third-color);
+
+}
+
+.footer-link {
+
+    font-style: normal;
+
+    line-height: 1.7;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфоліо */
+
+.portfolio {}
+
+.button-portfolio {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    color: var(--primary-color);
+
+}
+
+
+.button-portfolio:hover {
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--third-color);
+    cursor: pointer;
+
+}
+
+.button-portfolio:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+
+
+}
+
+.button-items {}
+
+.button-item {}
+
+.portfolio-items {}
+
+.portfolio-item {}
+
+.portfolio-title {
+
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-article {
+    color: var(--second-color);
+    font-size: 18px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
