@@ -59,14 +59,13 @@ img {
 
 .header {
   border: 1px solid #ececec;
-  margin: 0
-  ;
 }
 
 .container-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px;
 }
 
 .header-nav {
@@ -75,7 +74,7 @@ img {
 }
 
 .header-logo {
- align-items: center;
+  align-items: center;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -98,7 +97,6 @@ img {
 .header-nav-items {
   display: flex;
   align-items: center;
-  
 }
 
 .header-nav-item:not(:last-child) {
@@ -116,7 +114,6 @@ img {
   display: flex;
   padding: 32px 0;
   align-items: center;
-
 }
 
 .contact-item:not(:last-child) {
@@ -268,7 +265,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 
   color: var(--primary-color);
 }
@@ -282,7 +279,7 @@ img {
 
 /*  ФУТЕР  */
 
-.footer-container {
+.footer {
   background: #2f303a;
   padding: 60px 15px;
   display: block;
@@ -296,7 +293,7 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   display: block;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 .address-items {
@@ -304,7 +301,7 @@ img {
 }
 
 .address-item:not(:last-child) {
-  margin-bottom: 12px;
+  margin-bottom: 9px;
 }
 
 .address-link {
@@ -377,6 +374,7 @@ img {
 }
 
 .portfolio-title {
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
